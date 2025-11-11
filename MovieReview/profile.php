@@ -81,10 +81,11 @@ $result_reviews = $conn->query($sql_reviews);
   <a href="logout.php"><button>Logout</button></a>
 </div>
 
-<!-- 🦶 Footer -->
+<!-- Footer -->
 <footer>
-  <p>© 2025 Movie Review Hub. All Rights Reserved. | <a href="index.php">Home</a></p>
+  <p>© 2025 CineRate Hub. All Rights Reserved. | <a href="index.php">Home</a></p>
 
 </footer>
 </body>
 </html>
+
