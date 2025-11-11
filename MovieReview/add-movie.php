@@ -56,7 +56,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 </head>
 <body>
 
-<!-- 🧭 Navbar -->
+<!-- Navbar -->
 <nav>
   <h1>🎬 CineRate</h1>
   <div>
@@ -73,7 +73,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
   </div>
 </nav>
 
-<!-- 📦 Add Movie Container -->
+<!-- Add Movie Container -->
 <div class="review-container">
   <h2>Add New Movie</h2>
 
@@ -100,10 +100,11 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
   <a href="index.php">← Back to Home</a>
 </div>
 
-<!-- 🦶 Footer -->
+<!-- Footer -->
 <footer>
-  <p>© 2025 Movie Review Hub. All Rights Reserved. | <a href="index.php">Home</a></p>
+  <p>© 2025 CineRate Hub. All Rights Reserved. | <a href="index.php">Home</a></p>
 </footer>
 
 </body>
 </html>
+
