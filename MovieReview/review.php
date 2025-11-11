@@ -38,7 +38,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['delete_review_id'])) {
     $review_id = intval($_POST['delete_review_id']);
     $user_id = $_SESSION['user_id'];
 
-    // ✅ Ensure user can only delete their own review
+    //  user can only delete their own review
     $delete_sql = "DELETE FROM reviews WHERE id = $review_id AND user_id = $user_id";
     if ($conn->query($delete_sql) === TRUE) {
         echo "<script>alert('Review deleted successfully!'); window.location='review.php?movie_id=$movie_id';</script>";
@@ -83,7 +83,7 @@ $avg = $result_avg->fetch_assoc()['avg_rating'];
 
 
 
-        /* 🎬 General Reset */
+        /* General Reset */
         * {
           margin: 0;
           padding: 0;
@@ -98,7 +98,7 @@ $avg = $result_avg->fetch_assoc()['avg_rating'];
           padding: 20px;
         }
 
-        /* 🧭 Navbar (optional) */
+        /*  Navbar (optional) */
         nav {
           background: #222;
           color: #fff;
@@ -126,7 +126,7 @@ $avg = $result_avg->fetch_assoc()['avg_rating'];
           color: #ffcc00;
         }
 
-        /* 🎬 Movie Card */
+        /*  Movie Card */
         .movie-card {
           display: flex;
           gap: 20px;
@@ -206,7 +206,7 @@ $avg = $result_avg->fetch_assoc()['avg_rating'];
           color: #666;
         }
 
-        /* 📝 Review Form */
+        /* Review Form */
         .review-form {
           margin-top: 30px;
           background: #fff;
@@ -249,7 +249,7 @@ $avg = $result_avg->fetch_assoc()['avg_rating'];
           background: #0056b3;
         }
 
-        /* 🔗 Back Link */
+        /*  Back Link */
         .back-link {
           margin-top: 30px;
           text-align: center;
@@ -265,7 +265,7 @@ $avg = $result_avg->fetch_assoc()['avg_rating'];
           text-decoration: underline;
         }
 
-        /* 📱 Responsive Design */
+        /*  Responsive Design */
         @media (max-width: 768px) {
           .movie-card {
             flex-direction: column;
@@ -287,7 +287,7 @@ $avg = $result_avg->fetch_assoc()['avg_rating'];
           }
         }
 
-         /* 🦶 Footer */
+         /*  Footer */
         footer {
           text-align: center;
           background: #222;
@@ -391,10 +391,11 @@ function confirmDelete() {
 }
 </script>
 
-<!-- 🦶 Footer -->
+<!-- Footer -->
 <footer>
-  <p>© 2025 Movie Review Hub. All Rights Reserved. | <a href="index.php">Home</a></p>
+  <p>© 2025 CineRate Hub. All Rights Reserved. | <a href="index.php">Home</a></p>
 </footer>
 
 </body>
+
 </html> 
