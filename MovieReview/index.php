@@ -61,7 +61,7 @@ $result = $conn->query($sql);
     <meta charset="UTF-8">
     <title>Movie Review Website</title>
     <style>
-              /* 🌙 Dark Mode Toggle */
+              /* Dark Mode Toggle */
         #theme-toggle {
           background: transparent;
           color: white;
@@ -192,7 +192,7 @@ $result = $conn->query($sql);
           color: #f39c12;
         }
 
-        /* 🦶 Footer */
+        /*  Footer */
         footer {
           text-align: center;
           background: #222;
@@ -325,10 +325,11 @@ $result = $conn->query($sql);
   });
 </script>
 
-<!-- 🦶 Footer -->
+<!--  Footer -->
 <footer>
-  <p>© 2025 Movie Review Hub. All Rights Reserved. | <a href="index.php">Home</a></p>
+  <p>© 2025 CineRate Hub. All Rights Reserved. | <a href="index.php">Home</a></p>
 </footer>
 
 </body>
 </html>
+
